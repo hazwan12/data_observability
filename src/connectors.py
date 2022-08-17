@@ -3,6 +3,10 @@ class BaseConnector:
     def __init__(self) -> None:
         pass
 
+    def refresh(self):
+        # Do a refresh
+        pass
+    
 class ObjectStoreConnector(BaseConnector):
 
     def __init__(self) -> None:
